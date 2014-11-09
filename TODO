@@ -1,0 +1,7 @@
+Features planned at some point in the future:
+
+- Customizable skip function. Mode-line lighter, showing a periodically updated tally.
+- Mode-line lighter, with periodically updated tally.
+- More comprehensive report, including total points earnable across all tasks.
+- Short/Long/Pretty name capabilities for tally incentives.
+- Add ability to account for repeating tasks.

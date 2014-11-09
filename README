@@ -1,0 +1,15 @@
+org-tally
+=========
+
+org-tally is a lightweight gamification layer over org-mode's task management
+capabilities. It provides functions to add incentives to tasks, tally the
+incentives in an org-mode file, and report the results.
+
+org-tally was inspired by org-gamify [fn:org-gamify], but differs in that
+org-tally is purely buffer-driven. While this does sound like a regression, it
+has the advantage that the tally scoreboard of a given file can be reconstructed
+from the file alone, without needing to persist local state. All the tally
+information is stored in properties in the org-mode file; if that file is
+tracked with source control, it provides a completely auditable game history.
+
+[fn:org-gamify]: http://bitbucket.org/eeeickythump/org-gamify/
