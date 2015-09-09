@@ -39,7 +39,7 @@
   (interactive)
   (progn
     (set 'org-tally-totals nil))
-    (org-map-entries 'org-tally-update-entry nil nil 'org-tally-skip)
+    (org-map-entries 'org-tally-update-entry "TALLY={.}" nil 'org-tally-skip)
     (message
      (concat "Totals: " (mapconcat (lambda (arg) (format "%d %s" (cdr arg) (car arg)))
                                    org-tally-totals ", "))))
